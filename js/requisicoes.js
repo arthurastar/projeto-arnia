@@ -1,4 +1,4 @@
-const endereco = 'https://tico-e-teco-production.up.railway.app:3000'
+const endereco = 'https://db-arnia.onrender.com'
 
 listar = async (rota) => {
     requisicao = await fetch(endereco + rota)
